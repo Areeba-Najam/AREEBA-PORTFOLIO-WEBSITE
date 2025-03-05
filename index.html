@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areeba's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('bimg.jpg');
+            background-size: 100%;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            font-size: 25px;
+        }
+        nav ul {
+            list-style: none;
+            background: #444;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 10px 30px;
+        }
+
+        nav ul li a {
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            color: rgba(233, 167, 44, 0.986);
+            font-size: 18px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: rgb(216, 236, 247);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section:hover{
+            scale:97%;
+            transition-duration: 0.3s;
+        }
+
+        table {
+            width: 90%;
+            margin-left: 70px;
+            border-collapse: none;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: #333;
+            color: white;
+        }
+        form input,
+        form textarea {
+            width: 80%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        form input[type="submit"] {
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 12px;
+        }
+
+        form input[type="submit"]:hover {
+            background: #555;
+        }
+        p{
+            padding-left:20px;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Areeba's Portfolio</header>
+
+    <nav>
+        <ul>
+            <li><a href="#Bio">Bio</a></li>
+            <li><a href="#links">LinkedIn</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Qualifications">Qualifications</a></li>
+            <li><a href="#Reach-out">Reach-out</a></li>
+        </ul>
+    </nav>
+
+    <section id="Bio">
+        <h2>Bio</h2>
+        <p>Hello! My name is Areeba Najam, and I am a passionate web developer and love creating beautiful,user-friendly and functional websites. My journey in coding started with curiosity and turned into a passion for problem-solving and innovation!"</p>
+    </section>
+    <section id="links">
+        <h2>View my LinkedIn Profile.</h2>
+        <a href="https://www.linkedin.com/in/areeba-najam789" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50" alt="LinkedIn">
+        </a>
+        
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Portfolio Website</h3>
+        <p>A sleek and modern website designed to highlight my work and skills.</p>
+        <h3>To-Do List</h3>
+        <p>A user-friendly application to efficiently manage and prioritize daily tasks.</p>
+        <h3>Personal Blog</h3>
+        <p>A beginner-friendly blogging website for sharing thoughts.</p>
+        <h3>Basic Calculator</h3>
+        <p>A web-based calculator for basic arithmetic operations.</p>
+    </section>
+
+    <section id="Qualifications">
+        <h2>My Qualifications</h2>
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Proficiency Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+    </section>
+    <section id="Reach-out">
+        <h2>Reach-out</h2>
+        <p>Estimates, questions, information? Don't hesitate to contact us.</p>
+        <form>
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <input type="number" name="number" placeholder="Enter Your contact" required>
+            <textarea name="message" placeholder="Enter Your Message" rows="3" required></textarea><br>
+            <input type="submit" value="Send Mail">
+        </form>
+    </section>
+    <section id="videotag">
+        <h2>Demo Video</h2>
+        <video width="700" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</body>
+
+</html>
